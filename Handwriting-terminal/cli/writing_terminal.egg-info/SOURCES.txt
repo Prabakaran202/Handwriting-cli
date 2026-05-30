@@ -1,0 +1,11 @@
+setup.py
+writing_terminal.egg-info/PKG-INFO
+writing_terminal.egg-info/SOURCES.txt
+writing_terminal.egg-info/dependency_links.txt
+writing_terminal.egg-info/entry_points.txt
+writing_terminal.egg-info/top_level.txt
+wt_cli/__init__.py
+wt_cli/canvas_server.py
+wt_cli/executor.py
+wt_cli/main.py
+wt_cli/security.py

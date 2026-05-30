@@ -1,0 +1,23 @@
+# cli/requirements.txt
+
+# --- CLI & Core Framework ---
+click==8.1.7            # CLI கமாண்டுகளை (wt start, wt run) உருவாக்க
+fastapi==0.110.0        # லோக்கல் API மற்றும் வெப்சாக்கெட் சர்வர்
+uvicorn==0.28.0         # FastAPI சர்வரை இயக்குவதற்கு
+pydantic==2.6.4         # Data validation மற்றும் configurations-க்காக
+
+# --- AI & Machine Learning (Handwriting & Tamil OCR) ---
+numpy==1.26.4           # Canvas கோஆர்டினேட்ஸ் மற்றும் இமேஜ் அரேக்களை கையாள
+opencv-python==4.9.0.80 # இமேஜ் பிராசஸிங் மற்றும் கேன்வாஸ் இன்புட் மேனேஜ்மென்ட்
+pillow==10.2.0          # இமேஜ்களை கையாளுவதற்கு (PIL)
+torch==2.2.1            # Handwriting & Tamil Recognition டீப் லேர்னிங் மாடல்களுக்கு
+transformers==4.38.2    # HuggingFace மாடல்கள் அல்லது LLM (AI Command Fixer)-க்கு
+
+# --- Voice Integration (Speech to Text) ---
+SpeechRecognition==3.10.1 # மைக்ரோஃபோன் வாய்ஸ் இன்புட்டை வாங்குவதற்கு
+pyaudio==0.2.14           # ஆடியோ ஸ்ட்ரீமிங் மற்றும் ரெக்கார்டிங் செய்ய
+
+# --- Desktop UI / Utility ---
+pywebview==5.0.5        # (Optional) பிரவுசர் இல்லாமல் தனி ஆப் விண்டோவாக UI-ஐ காட்ட
+websockets==12.0        # ரியல்-டைம் ஸ்ட்ரோக் மற்றும் டெர்மினல் அவுட்புட் ஸ்ட்ரீமிங்கிற்கு
+requests==2.31.0        # எக்ஸ்டெர்னல் API-களுடன் இணைக்க
